@@ -6,3 +6,5 @@ and save and test
 Now again go to the datasource and check the explore option and select lable as container and it allow you to choose multiple value'" for eg your contianers name " 
 Now You can see the logs in the grafana dashboard.
 
+**Use this command if you want to reset the grafana admin passwod** 
+--> grafana-cli admin reset-admin-password <newpassword>
