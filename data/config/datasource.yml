@@ -1,0 +1,17 @@
+apiVersion: 1
+
+datasources:
+  - name: Loki
+    type: loki
+    access: proxy
+    orgId: 1
+    url: http://loki:3100
+    jsonData:
+      maxLines: 1000
+  - name: Prometheus
+    type: prometheus
+    access: proxy
+    url: http://prometheus:9090  # This should match the Prometheus service name in Docker Compose
+    isDefault: true
+    editable: false
+
