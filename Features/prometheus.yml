@@ -1,5 +1,0 @@
-# Use this prometheus.yml file if you want to see the multiple server metrics in a single dashboard. Mean you can add the multiple targets in a single prometheus.yml file. so that when
-#you configure the prometheus as a datasource in grafana dashboard as a 1860 dashboard id. Then by click on the job-name you can see multiple target so that all the target get appear on
-#the same dashboard so that you can switch to the another server metris in the same time.
-
-
